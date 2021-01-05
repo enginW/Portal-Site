@@ -460,6 +460,13 @@ body {
   padding: 10px;
 }
 
+.header .top-header .top-header-social-menu .menu-list a:hover {
+  border-radius: 50%;
+  background-color: white;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
 .header .top-header .top-header-login {
   width: 25%;
   display: -webkit-box;
@@ -479,5 +486,16 @@ body {
   border: 1px solid red;
   margin-right: 5px;
   border-radius: 5px;
+}
+
+.header .top-header .top-header-login a:hover {
+  color: red;
+  background-color: white;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.header .top-header .top-header-login .rega {
+  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */
