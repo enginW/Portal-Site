@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAC,OAAO;CAChB;;AACD,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,OAAO;CACjB;;AACD,AAAA,aAAa,CAAA;EACT,KAAK,EAAC,OAAO;CAChB;;AACD,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,OAAO;CACjB;;AACD,AAAA,eAAe,CAAA;EACX,KAAK,EAAC,OAAO;CAChB",
+    "sources": [
+        "brandlogo.scss"
+    ],
+    "names": [],
+    "file": "brandlogo.css"
+}
