@@ -396,14 +396,23 @@ body {
 .line {
   width: 100%;
   height: 1px;
-  background-color: rgba(209, 10, 10, 0.8);
+  background-color: red;
   position: absolute;
   top: 105px;
 }
 
+.navbarback {
+  width: 100%;
+  height: 54px;
+  background-color: rgba(209, 10, 10, 0.8);
+  position: absolute;
+  z-index: -1;
+  top: 106px;
+}
+
 .header {
-  height: 200px;
-  border-bottom: 1px solid blue;
+  height: 160px;
+  border-bottom: 1px solid red;
 }
 
 .header .top-header {
@@ -497,5 +506,93 @@ body {
 
 .header .top-header .top-header-login .rega {
   margin-right: 0;
+}
+
+.header .navbar {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .navbar .navbar-menu {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .navbar .navbar-menu .navbar-menu-list {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+  position: relative;
+  top: 2px;
+}
+
+.header .navbar .navbar-menu .navbar-menu-list a {
+  padding: 18px 15px;
+  margin-right: 5px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+.header .navbar form {
+  margin-top: 5px;
+  width: 25%;
+}
+
+.header .navbar form input {
+  border: none;
+  padding: 8px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: rgba(209, 10, 10, 0.8);
+  font-weight: 100;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header .navbar form input::-webkit-input-placeholder {
+  color: black;
+  padding-left: 10px;
+}
+
+.header .navbar form input:-ms-input-placeholder {
+  color: black;
+  padding-left: 10px;
+}
+
+.header .navbar form input::-ms-input-placeholder {
+  color: black;
+  padding-left: 10px;
+}
+
+.header .navbar form input::placeholder {
+  color: black;
+  padding-left: 10px;
+}
+
+.header .navbar form button {
+  padding: 7px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -4px;
+  border: 1px solid white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

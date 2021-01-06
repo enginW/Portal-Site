@@ -22,13 +22,22 @@ body{
 .line{
     width: 100%;
     height: 1px;
-    background-color: $btn-color;
+    background-color: red;
     position: absolute;
     top: 105px;
 }
+.navbarback{
+    width: 100%;
+    height: 54px;
+    background-color: $btn-color;
+    position: absolute;
+    z-index: -1;
+    top: 106px;
+}
 .header{
-    height: 200px;
-    border-bottom: 1px solid blue;
+    height: 160px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    
     .top-header{
         display: flex;
         width: 100%;
@@ -90,6 +99,60 @@ body{
             .rega{
                 margin-right: 0;
             }
+        }
+    }
+    .navbar{
+        width: 100%;
+        height: 60px;   
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .navbar-menu{
+            width: 75%;
+            display: flex;
+            .navbar-menu-list{
+                height: 60px;
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+                position: relative;
+                top: 2px;
+                a{
+                    padding: 18px 15px;
+                    margin-right: 5px;
+                    color: white;
+                    font-family: $scnfont;
+                    font-weight: 400;
+                }
+            }
+        }
+        form{
+            margin-top: 5px;
+            width: 25%;
+            input{
+                border: none;
+                padding: 8px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                color: $btn-color;
+                font-weight: 100;
+                font-family:$scnfont;
+                &::placeholder{
+                    color:black;
+                    padding-left: 10px;
+                }
+            }
+                button{
+                    padding: 7px;
+                    color: white;
+                    background-color: transparent;
+                    cursor: pointer;
+                    margin-left: -4px;
+                    border: 1px solid white;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+
+                } 
         }
     }
 }
