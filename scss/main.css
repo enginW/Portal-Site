@@ -550,6 +550,10 @@ body {
   font-weight: 400;
 }
 
+.header .navbar .navbar-menu .navbar-menu-list a:hover {
+  border-right: 1px solid white;
+}
+
 .header .navbar form {
   margin-top: 5px;
   width: 25%;
@@ -594,5 +598,12 @@ body {
   border: 1px solid white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.header .navbar form button:hover {
+  background-color: white;
+  color: rgba(209, 10, 10, 0.8);
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 /*# sourceMappingURL=main.css.map */

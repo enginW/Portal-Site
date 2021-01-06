@@ -123,6 +123,9 @@ body{
                     color: white;
                     font-family: $scnfont;
                     font-weight: 400;
+                    &:hover{
+                        border-right:1px solid white;
+                    }
                 }
             }
         }
@@ -142,17 +145,21 @@ body{
                     padding-left: 10px;
                 }
             }
-                button{
-                    padding: 7px;
-                    color: white;
-                    background-color: transparent;
-                    cursor: pointer;
-                    margin-left: -4px;
-                    border: 1px solid white;
-                    border-top-right-radius: 10px;
-                    border-bottom-right-radius: 10px;
-
-                } 
+            button{
+                padding: 7px;
+                color: white;
+                background-color: transparent;
+                cursor: pointer;
+                 margin-left: -4px;
+                border: 1px solid white;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                &:hover{
+                     background-color: white;
+                    color: $btn-color;
+                    transition: $transition;
+                }
+            } 
         }
     }
 }
